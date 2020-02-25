@@ -18,7 +18,13 @@ class HabitsTableViewController: UITableViewController {
                     forCellReuseIdentifier: HabitTableViewCell.identifier
         )
 
-        // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        persistence.setNeedsToReloadHabits()
+        tableView.reloadData()
     }
     
     var names: [String] = ["Alan", "Braus", "Adriana", "Mitchell", "Dani", "Jess", "Dan", "Meredith", "Dan", "Milad"]
@@ -30,8 +36,10 @@ class HabitsTableViewController: UITableViewController {
         Habit(title: "Stand up every Hour", image: Habit.Images.book)
     ]
     
+    private var persistence = PersistenceLayer()
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return habits.count
+        return persistence.habits.count
     }
     
 //    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -52,7 +60,7 @@ class HabitsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
       let cell = tableView.dequeueReusableCell( withIdentifier: HabitTableViewCell.identifier, for: indexPath) as! HabitTableViewCell
-      let habit = habits[indexPath.row]
+      let habit = persistence.habits[indexPath.row]
       cell.configure(habit)
       return cell
     }

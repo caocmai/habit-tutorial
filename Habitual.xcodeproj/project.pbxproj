@@ -18,6 +18,7 @@
 		2C93DCF12404F149008C04CF /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93DCF02404F149008C04CF /* DateExtensions.swift */; };
 		2C93DCF42404F34C008C04CF /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93DCF22404F34C008C04CF /* HabitTableViewCell.swift */; };
 		2C93DCF52404F34C008C04CF /* HabitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C93DCF32404F34C008C04CF /* HabitTableViewCell.xib */; };
+		2C93DCF92404F996008C04CF /* PersistenceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93DCF82404F996008C04CF /* PersistenceLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		2C93DCF02404F149008C04CF /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		2C93DCF22404F34C008C04CF /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
 		2C93DCF32404F34C008C04CF /* HabitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitTableViewCell.xib; sourceTree = "<group>"; };
+		2C93DCF82404F996008C04CF /* PersistenceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +68,12 @@
 		2C93DCD22404E446008C04CF /* Habitual */ = {
 			isa = PBXGroup;
 			children = (
+				2C93DCFC2404F9CB008C04CF /* Model */,
+				2C93DCFB2404F9B9008C04CF /* Controller */,
 				2C93DCD32404E446008C04CF /* AppDelegate.swift */,
 				2C93DCD52404E446008C04CF /* SceneDelegate.swift */,
 				2C93DCEC2404E689008C04CF /* UIViewControllerExtensions.swift */,
+				2C93DCF82404F996008C04CF /* PersistenceLayer.swift */,
 				2C93DCEB2404E5F8008C04CF /* Views */,
 				2C93DCDC2404E447008C04CF /* Assets.xcassets */,
 				2C93DCDE2404E447008C04CF /* LaunchScreen.storyboard */,
@@ -88,6 +93,20 @@
 				2C93DCF02404F149008C04CF /* DateExtensions.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2C93DCFB2404F9B9008C04CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C93DCFC2404F9CB008C04CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +184,7 @@
 				2C93DCED2404E689008C04CF /* UIViewControllerExtensions.swift in Sources */,
 				2C93DCEF2404F047008C04CF /* Habit.swift in Sources */,
 				2C93DCD42404E446008C04CF /* AppDelegate.swift in Sources */,
+				2C93DCF92404F996008C04CF /* PersistenceLayer.swift in Sources */,
 				2C93DCD62404E446008C04CF /* SceneDelegate.swift in Sources */,
 				2C93DCE92404E5DB008C04CF /* HabitsTableViewController.swift in Sources */,
 				2C93DCF42404F34C008C04CF /* HabitTableViewCell.swift in Sources */,
