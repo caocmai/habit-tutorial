@@ -19,6 +19,12 @@
 		2C93DCF42404F34C008C04CF /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93DCF22404F34C008C04CF /* HabitTableViewCell.swift */; };
 		2C93DCF52404F34C008C04CF /* HabitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C93DCF32404F34C008C04CF /* HabitTableViewCell.xib */; };
 		2C93DCF92404F996008C04CF /* PersistenceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93DCF82404F996008C04CF /* PersistenceLayer.swift */; };
+		2CDC0ECF2405022100CB52D4 /* AddHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC0ECD2405022100CB52D4 /* AddHabitViewController.swift */; };
+		2CDC0ED02405022100CB52D4 /* AddHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC0ECE2405022100CB52D4 /* AddHabitViewController.xib */; };
+		2CDC0ED32405073600CB52D4 /* HabitImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC0ED12405073600CB52D4 /* HabitImageCollectionViewCell.swift */; };
+		2CDC0ED42405073600CB52D4 /* HabitImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC0ED22405073600CB52D4 /* HabitImageCollectionViewCell.xib */; };
+		2CDC0ED72405132300CB52D4 /* AddHabitViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC0ED52405132300CB52D4 /* AddHabitViewController2.swift */; };
+		2CDC0ED82405132300CB52D4 /* AddHabitViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC0ED62405132300CB52D4 /* AddHabitViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,12 @@
 		2C93DCF22404F34C008C04CF /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
 		2C93DCF32404F34C008C04CF /* HabitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitTableViewCell.xib; sourceTree = "<group>"; };
 		2C93DCF82404F996008C04CF /* PersistenceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceLayer.swift; sourceTree = "<group>"; };
+		2CDC0ECD2405022100CB52D4 /* AddHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitViewController.swift; sourceTree = "<group>"; };
+		2CDC0ECE2405022100CB52D4 /* AddHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitViewController.xib; sourceTree = "<group>"; };
+		2CDC0ED12405073600CB52D4 /* HabitImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CDC0ED22405073600CB52D4 /* HabitImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		2CDC0ED52405132300CB52D4 /* AddHabitViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitViewController2.swift; sourceTree = "<group>"; };
+		2CDC0ED62405132300CB52D4 /* AddHabitViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,12 @@
 		2C93DCEB2404E5F8008C04CF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2CDC0ECD2405022100CB52D4 /* AddHabitViewController.swift */,
+				2CDC0ECE2405022100CB52D4 /* AddHabitViewController.xib */,
+				2CDC0ED52405132300CB52D4 /* AddHabitViewController2.swift */,
+				2CDC0ED62405132300CB52D4 /* AddHabitViewController2.xib */,
+				2CDC0ED12405073600CB52D4 /* HabitImageCollectionViewCell.swift */,
+				2CDC0ED22405073600CB52D4 /* HabitImageCollectionViewCell.xib */,
 				2C93DCE72404E5DB008C04CF /* HabitsTableViewController.swift */,
 				2C93DCE82404E5DB008C04CF /* HabitsTableViewController.xib */,
 				2C93DCF22404F34C008C04CF /* HabitTableViewCell.swift */,
@@ -168,9 +186,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C93DCE02404E447008C04CF /* LaunchScreen.storyboard in Resources */,
+				2CDC0ED02405022100CB52D4 /* AddHabitViewController.xib in Resources */,
 				2C93DCEA2404E5DB008C04CF /* HabitsTableViewController.xib in Resources */,
 				2C93DCF52404F34C008C04CF /* HabitTableViewCell.xib in Resources */,
+				2CDC0ED42405073600CB52D4 /* HabitImageCollectionViewCell.xib in Resources */,
 				2C93DCDD2404E447008C04CF /* Assets.xcassets in Resources */,
+				2CDC0ED82405132300CB52D4 /* AddHabitViewController2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +209,9 @@
 				2C93DCD62404E446008C04CF /* SceneDelegate.swift in Sources */,
 				2C93DCE92404E5DB008C04CF /* HabitsTableViewController.swift in Sources */,
 				2C93DCF42404F34C008C04CF /* HabitTableViewCell.swift in Sources */,
+				2CDC0ED72405132300CB52D4 /* AddHabitViewController2.swift in Sources */,
+				2CDC0ED32405073600CB52D4 /* HabitImageCollectionViewCell.swift in Sources */,
+				2CDC0ECF2405022100CB52D4 /* AddHabitViewController.swift in Sources */,
 				2C93DCF12404F149008C04CF /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
