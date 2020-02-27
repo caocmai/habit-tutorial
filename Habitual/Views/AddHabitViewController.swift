@@ -13,7 +13,10 @@ class AddHabitViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     @IBAction func pickPhotoButtonPressed(_ sender: Any) {
-        setupPickButton()
+        guard let selectedIndexPath = selectedIndexPath else {return}
+        let confirmHabitVC = ConfirmHabitViewController.instantiate()
+        confirmHabitVC.habitImage = habitImages[selectedIndexPath.row]
+        navigationController?.pushViewController(confirmHabitVC, animated: true)
         
     }
     
@@ -60,10 +63,10 @@ class AddHabitViewController: UIViewController {
 
     }
     
-    func setupPickButton() {
-        print("test")
-        
-    }
+//    func setupPickButton() {
+//        print("test")
+//
+//    }
 
 
     /*
