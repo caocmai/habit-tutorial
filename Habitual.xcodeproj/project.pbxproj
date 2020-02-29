@@ -23,7 +23,6 @@
 		2CDC0ED02405022100CB52D4 /* AddHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC0ECE2405022100CB52D4 /* AddHabitViewController.xib */; };
 		2CDC0ED32405073600CB52D4 /* HabitImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC0ED12405073600CB52D4 /* HabitImageCollectionViewCell.swift */; };
 		2CDC0ED42405073600CB52D4 /* HabitImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC0ED22405073600CB52D4 /* HabitImageCollectionViewCell.xib */; };
-		2CDC0ED72405132300CB52D4 /* AddHabitViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC0ED52405132300CB52D4 /* AddHabitViewController2.swift */; };
 		2CDC0ED82405132300CB52D4 /* AddHabitViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC0ED62405132300CB52D4 /* AddHabitViewController2.xib */; };
 		2CEED2122405AF0E002CE7AB /* ConfirmHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEED2102405AF0E002CE7AB /* ConfirmHabitViewController.swift */; };
 		2CEED2132405AF0E002CE7AB /* ConfirmHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEED2112405AF0E002CE7AB /* ConfirmHabitViewController.xib */; };
@@ -50,7 +49,6 @@
 		2CDC0ECE2405022100CB52D4 /* AddHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitViewController.xib; sourceTree = "<group>"; };
 		2CDC0ED12405073600CB52D4 /* HabitImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		2CDC0ED22405073600CB52D4 /* HabitImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitImageCollectionViewCell.xib; sourceTree = "<group>"; };
-		2CDC0ED52405132300CB52D4 /* AddHabitViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitViewController2.swift; sourceTree = "<group>"; };
 		2CDC0ED62405132300CB52D4 /* AddHabitViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitViewController2.xib; sourceTree = "<group>"; };
 		2CEED2102405AF0E002CE7AB /* ConfirmHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmHabitViewController.swift; sourceTree = "<group>"; };
 		2CEED2112405AF0E002CE7AB /* ConfirmHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmHabitViewController.xib; sourceTree = "<group>"; };
@@ -88,12 +86,12 @@
 		2C93DCD22404E446008C04CF /* Habitual */ = {
 			isa = PBXGroup;
 			children = (
-				2C93DCFC2404F9CB008C04CF /* Model */,
-				2C93DCFB2404F9B9008C04CF /* Controller */,
 				2C93DCD32404E446008C04CF /* AppDelegate.swift */,
 				2C93DCD52404E446008C04CF /* SceneDelegate.swift */,
 				2C93DCEC2404E689008C04CF /* UIViewControllerExtensions.swift */,
 				2C93DCF82404F996008C04CF /* PersistenceLayer.swift */,
+				2C93DCFC2404F9CB008C04CF /* Model */,
+				2C93DCFB2404F9B9008C04CF /* Controller */,
 				2C93DCEB2404E5F8008C04CF /* Views */,
 				2C93DCDC2404E447008C04CF /* Assets.xcassets */,
 				2C93DCDE2404E447008C04CF /* LaunchScreen.storyboard */,
@@ -105,21 +103,12 @@
 		2C93DCEB2404E5F8008C04CF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2CDC0ECD2405022100CB52D4 /* AddHabitViewController.swift */,
 				2CDC0ECE2405022100CB52D4 /* AddHabitViewController.xib */,
-				2CDC0ED52405132300CB52D4 /* AddHabitViewController2.swift */,
 				2CDC0ED62405132300CB52D4 /* AddHabitViewController2.xib */,
-				2CDC0ED12405073600CB52D4 /* HabitImageCollectionViewCell.swift */,
 				2CDC0ED22405073600CB52D4 /* HabitImageCollectionViewCell.xib */,
-				2C93DCE72404E5DB008C04CF /* HabitsTableViewController.swift */,
 				2C93DCE82404E5DB008C04CF /* HabitsTableViewController.xib */,
-				2C93DCF22404F34C008C04CF /* HabitTableViewCell.swift */,
 				2C93DCF32404F34C008C04CF /* HabitTableViewCell.xib */,
-				2C93DCEE2404F047008C04CF /* Habit.swift */,
-				2C93DCF02404F149008C04CF /* DateExtensions.swift */,
-				2CEED2102405AF0E002CE7AB /* ConfirmHabitViewController.swift */,
 				2CEED2112405AF0E002CE7AB /* ConfirmHabitViewController.xib */,
-				2CEED2142405BB78002CE7AB /* HabitDetailedViewController.swift */,
 				2CEED2152405BB78002CE7AB /* HabitDetailedViewController.xib */,
 			);
 			path = Views;
@@ -128,6 +117,13 @@
 		2C93DCFB2404F9B9008C04CF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2CDC0ECD2405022100CB52D4 /* AddHabitViewController.swift */,
+				2CDC0ED12405073600CB52D4 /* HabitImageCollectionViewCell.swift */,
+				2C93DCE72404E5DB008C04CF /* HabitsTableViewController.swift */,
+				2C93DCF22404F34C008C04CF /* HabitTableViewCell.swift */,
+				2C93DCF02404F149008C04CF /* DateExtensions.swift */,
+				2CEED2102405AF0E002CE7AB /* ConfirmHabitViewController.swift */,
+				2CEED2142405BB78002CE7AB /* HabitDetailedViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -135,6 +131,7 @@
 		2C93DCFC2404F9CB008C04CF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2C93DCEE2404F047008C04CF /* Habit.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -223,7 +220,6 @@
 				2C93DCD62404E446008C04CF /* SceneDelegate.swift in Sources */,
 				2C93DCE92404E5DB008C04CF /* HabitsTableViewController.swift in Sources */,
 				2C93DCF42404F34C008C04CF /* HabitTableViewCell.swift in Sources */,
-				2CDC0ED72405132300CB52D4 /* AddHabitViewController2.swift in Sources */,
 				2CEED2122405AF0E002CE7AB /* ConfirmHabitViewController.swift in Sources */,
 				2CDC0ED32405073600CB52D4 /* HabitImageCollectionViewCell.swift in Sources */,
 				2CDC0ECF2405022100CB52D4 /* AddHabitViewController.swift in Sources */,
