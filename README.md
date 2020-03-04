@@ -2,7 +2,7 @@
 Make's School tutorial on an iOS app to track daily habits
 
 ## About
-The purpose of this tutorial is to learn about AutoLayout, Persistance Storage, and Dark Mode
+The purpose of this tutorial is to learn about AutoLayout and Persistance Storage
 
 ### Features
 * Add Habits - with icons and title
